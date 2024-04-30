@@ -23,17 +23,20 @@
 body {
     margin: 0;
 }
-button {
+#allrankings a {
     background-color: #976d11;
     font-size: larger;
     font-weight: 400;
     color: white;
     border: solid black;
-    font-family: "Inter";
+    font-family: "Open Sans";
     padding: 10px;
 }
-button:hover {
+#allrankings a:hover {
     background-color: #391379;
+}
+.headlink {
+font-family: "Inter";
 }
 .headbar {
     display: grid;
