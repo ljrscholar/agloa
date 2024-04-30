@@ -1,0 +1,126 @@
+* {
+    font-family: "Open Sans";
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+.left {
+    display: flex;
+    justify-content: left;
+}
+.right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+body {
+    margin: 0;
+}
+button {
+    background-color: #976d11;
+    font-size: larger;
+    font-weight: 400;
+    color: white;
+    border: solid black;
+    font-family: "Inter";
+    padding: 10px;
+}
+button:hover {
+    background-color: #391379;
+}
+.headbar {
+    display: grid;
+    width: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-size: x-large;
+    font-size: 200%;
+    font-weight: 900;
+    margin: 0 30px;
+}
+.headbar p {
+    font-family: "Inter";
+}
+.headbar img {
+    height: 100px;
+    width: auto;
+}
+
+.pageselector {
+    display: flex;
+    background-color: #976d11;
+}
+
+.pageselector a {
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+    font-family: "Inter";
+    display: flex;
+    flex-grow: 1;
+    padding: 15px;
+    justify-content: center;
+}
+
+.pageselector a:hover {
+    background-color: #391379;
+    color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+#allgames {
+    display: flex;
+
+}
+
+.sectiontitle {
+background-color: #391379;
+color: white;
+font-size: xx-large;
+border-radius: 10px;
+padding: 10px;
+margin: 1fr 1fr 200fr 2fr;
+}
+
+#content {
+    background-color: white;
+    width: 60em;
+    margin: 0 auto;
+    padding: 1em;
+}
+#nationals {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#nationals span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cancelled {
+    font-weight: bold;
+    color: red;
+}
+
+footer {
+    background-color: black;
+    border: solid black;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+#footer {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}

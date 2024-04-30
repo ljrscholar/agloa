@@ -4,38 +4,45 @@
         <title>KC Academic Games</title>
         <meta charset="UTF-8">
         <meta name="robots" content="noindex, nofollow"> <!--No Follow No Index meta tag, should stop website from showing up in search results if deployed-->
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"> <!--Open Sans Font-->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"> <!--Inter Font-->
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <div id="header">
         <div class="headbar">
-            <img src="KClogo.png" alt="Karns City Logo">
-            <img src="torch.png" alt="academic torch">
-            <h1>Home</h1>
+            <p class="left">Karns City Academic Games</p>
+            <a href="index.html" class="center" ><img src="torch.png" alt="academic torch"></a>
+            <a href="index.html" class="right" ><img src="KClogo.png" alt="Karns City Logo"></a>
         </div>
 
-        <div class="pageselector">
+        <nav class="pageselector">
+            <a href="index.html">Home</a>
             <a href="presidents.html">Presidents</a>
             <a href="propaganda.html">Propaganda</a>
             <a href="currentevents.html">Current Events</a>
             <a href="theme.html">Theme</a>
             <a href="equations.html">Equations</a>
             <a href="onsets.html">On-Sets</a>
+        </nav>
         </div>
-
-        <span class="content">
+        <div id="content">
             <div class="title">
                 <h1>Home</h1>
             </div>
 
             <div class="bodysection"> <!--All Games-->
                 <h2 class="sectiontitle">All Games</h2>
-                <span>
+                <span id="allgames">
                     <span>
                         <h3>Reading Games</h3>
                         <ul>
-                            <li><a href="presidents.html">Presidents</a></li>
-                            <li><a href="propaganda.html">Propaganda</a></li>
-                            <li><a href="currentevents.html">Current Events</a></li>
+                            <li><a href="presidents.html">Presidents</a> <p>Presidents is a knowledge-based game where players answer questions based on clues they are given. The information one must know about every president ranges from the president's early life to post-presidency and everything in-between, including foreign policy, domestic affairs, scandals, conflicts, cabinet members, social movements, and any other major events occuring in the world at any time. Players must know detailed information about each question but also be confident in their answer choices.</p></li>
+                            <li><a href="propaganda.html">Propaganda</a> <p>Propaganda is a knowledge-based and deductive reasoning game where players must recognize different forms of persuasion and manipulative techniques used in advertising, poltiics, and everyday conversation. Players must learn to determine when an argument is illogical or unsound. Not only must a player be thoroughly understand each of the 6 sections of 8+ techniques and the complexities of each, but also answer with confidence, since wrong answers can cost them.</p></li>
+                            <li><a href="currentevents.html">Current Events</a> <p>Current Events is a knowledge-based game that requires players to be acutely aware of global events in nine categories, including Business, Disasters, Entertainment, Government, Obituaries, Science, and Sports.</p></li>
                             <li><a href="theme.html">Theme</a></li>
                         </ul>
                     </span>
@@ -51,81 +58,145 @@
 
             <div class="bodysection"> <!--National Tournament-->
                 <h2 class="sectiontitle">National Tournament</h2>
-                <span>
-                    <span> <!--2017-->
-                        <h3>2017</h3>
-                        <ul>
-                            <li>Name</li>
-                            <li>Name</li>
-                            <li>Name</li>
-                        </ul>
-                    </span>
-                    <span> <!--2018-->
-                        <h3>2018</h3>
-                        <ul>
-                            <li>Name</li>
-                            <li>Name</li>
-                            <li>Name</li>
-                        </ul>
-                    </span>
+                <div id="nationals">
                     <span> <!--2019-->
-                        <h3>2019</h3>
+                        <h3>2019 - Orlando, Florida</h3>
                         <ul>
-                            <li>Name</li>
-                            <li>Name</li>
-                            <li>Name</li>
+                            <li>Katelyn Grazioli</li>
+                            <li>Marli Knox</li>
+                            <li>Mallick Metcalfe</li>
+                            <li>Caleb Sapp</li>
+                            <li>Noah Maurer</li>
+                            <li>Lathan Price</li>
+                            <li>Ashley Maurer</li>
+                            <li>Savanna Prescott</li>
+                            <li>Liam Rodgers</li>
+                            <li>Mason Bell</li>
+                            <li>Grant Rice</li>
                         </ul>
                     </span>
                     <span> <!--2020-->
-                        <h3>2020</h3>
+                        <h3>2020 - Atlanta, Georgia</h3>
+                        <h4 class="cancelled">CANCELLED</h4>
                         <ul>
-                            <li>Name</li>
-                            <li>Name</li>
-                            <li>Name</li>
+                            <li>Ashley Fox</li>
+                            <li>Lily Gefert</li>
+                            <li>Brooke Griffith</li>
+                            <li>Amber Maurer</li>
+                            <li>Mallick Metcalfe</li>
+                            <li>Caleb Sapp</li>
+                            <li>Ava Fox</li>
+                            <li>Noah Maurer</li>
+                            <li>Lathan Price</li>
+                            <li>Ashley Maurer</li>
+                            <li>Ben Orozco</li>
+                            <li>Savanna Prescott</li>
+                            <li>Liam Rodgers</li>
+                            <li>Mason Bell</li>
+                            <li>Haylee Hogan</li>
+                            <li>Jack Lampus</li>
+                            <li>Trinity McFarland</li>
+                            <li>Jolynn Neal</li>
+                            <li>Jessica Rodgers</li>
+                            <li>Aaron Wimer</li>
+                            <li>Carson Pollock</li>
                         </ul>
                     </span>
                     <span> <!--2021-->
-                        <h3>2021</h3>
+                        <h3>2021 - Oglebay, West Virginia</h3>
+                        <h4 class="cancelled">CANCELLED</h4>
                         <ul>
-                            <li>Name</li>
-                            <li>Name</li>
-                            <li>Name</li>
+                            <li>Amber Maurer</li>
+                            <li>Caleb Sapp</li>
+                            <li>Ava Fox</li>
+                            <li>Noah Maurer</li>
+                            <li>Savanna Prescott</li>
+                            <li>Ashley Maurer</li>
+                            <li>Mason Bell</li>
+                            <li>Jessica Rodgers</li>
+                            <li>Hannah Summerville</li>
+                            <li>Zachary Neal</li>
                         </ul>
                     </span>
                     <span> <!--2022-->
-                        <h3>2022</h3>
+                        <h3>2022 Knoxville, Tennessee</h3>
                         <ul>
-                            <li>Name</li>
-                            <li>Name</li>
-                            <li>Name</li>
+                            <li>Madison Feicht</li>
+                            <li>Brooke Griffith</li>
+                            <li>Amber Maurer</li>
+                            <li>Caleb Sapp</li>
+                            <li>Ava Fox</li>
+                            <li>Noah Maurer</li>
+                            <li>Lathan Price</li>
+                            <li>Ashley Maurer</li>
+                            <li>Benjamin Orozco</li>
+                            <li>Liam Rodgers</li>
+                            <li>Mason Bell</li>
+                            <li>Haylee Hogan</li>
+                            <li>Trinity McFarland</li>
+                            <li>Hannah Summerville</li>
+                            <li>Brock Dittman</li>
+                            <li>Ty McFarland</li>
+                            <li>Ellie Peterson</li>
+                            <li>Dmitri Weckerly</li>
+                            <li>Cambryn King</li>
+                            <li>Zachary Neal</li>
+                            <li>Peyton Patsy</li>
                         </ul>
                     </span>
                     <span> <!--2023-->
-                        <h3>2023</h3>
+                        <h3>2023 - Orlando, Florida</h3>
                         <ul>
-                            <li>Name</li>
-                            <li>Name</li>
-                            <li>Name</li>
+                            <li>Caleb Sapp</li>
+                            <li>Trey Codispot</li>
+                            <li>Tyler Hiles</li>
+                            <li>Mason Bell</li>
+                            <li>Jack Lampus</li>
+                            <li>Trinity McFarland</li>
+                            <li>Jessica Rodgers</li>
+                            <li>Hannah Summerville</li>
+                            <li>Cody Kiser</li>
+                            <li>Ellie Peterson</li>
+                            <li>Dmitri Weckerly</li>
+                            <li>Zachary Neal</li>
+                            <li>Andrew Serafine</li>
+                            <li>Sophia Smith</li>
+                            <li>Maverick Haug</li>
+                            <li>Xander Saylor</li>
                         </ul>
                     </span>
                     <span> <!--2024-->
-                        <h3>2024</h3>
+                        <h3>2024 - Atlanta, Georgia</h3>
                         <ul>
-                            <li>Name</li>
-                            <li>Name</li>
-                            <li>Name</li>
+                            <li>Trey Codispot</li>
+                            <li>Tyler Hiles</li>
+                            <li>Ashley Maurer</li>
+                            <li>Liam Rodgers</li>
+                            <li>Mason Bell</li>
+                            <li>Haylee Hogan</li>
+                            <li>Jack Lampus</li>
+                            <li>Trinity McFarland</li>
+                            <li>Jessica Rodgers</li>
+                            <li>Hannah Summerville</li>
+                            <li>Brock Dittman</li>
+                            <li>Ellie Peterson</li>
+                            <li>Ty McFarland</li>
+                            <li>Dmitri Weckerly</li>
+                            <li>Cambryn King</li>
+                            <li>Zachary Neal</li>
+                            <li>Sophia Smith</li>
+                            <li>Maverick Haug</li>
+                            <li>Deklan McElravy</li>
+                            <li>Xander Saylor</li>
                         </ul>
                     </span>
                     <span> <!--2025-->
-                        <h3>2025</h3>
+                        <h3>2025 - Washington D.C.</h3>
                         <ul>
-                            <li>Name</li>
-                            <li>Name</li>
-                            <li>Name</li>
                         </ul>
                     </span>
-                </span>
-                <div>
+                </div>
+                <div class="center">
                     <a href=""><button>All Rankings</button></a>
                 </div>
             </div>
@@ -133,16 +204,20 @@
             <div class="bodysection"> <!--Gallery-->
                 <h2 class="sectiontitle">Gallery</h2>
                 <span>
-
+                    <img src="">
+                    <img>
+                    <img>
                 </span>
             </div>
-        </span>
-        <div class="footer">
-            <a href="index.html">Home</a>
-            <a href="">All Games</a>
-            <a href="https://www.kcasdk12.org/">Karns City School Website</a>
-            <a href="#">Back To Top</a>
-            <p>2024</p>
         </div>
+        <footer>
+            <nav id="footer">
+                <a href="index.html">Home</a>
+                <a href="index.html#allgames">All Games</a>
+                <a href="https://www.kcasdk12.org/">Karns City School Website</a>
+                <a href="#">Back To Top</a>
+                <p>Copyright © 2024</p>
+            </nav>
+        </footer>
     </body>
 </html>
