@@ -23,7 +23,7 @@
 body {
     margin: 0;
 }
-#allrankings a {
+.buttonlink a {
     background-color: #976d11;
     font-size: larger;
     font-weight: 400;
@@ -31,12 +31,18 @@ body {
     border: solid black;
     font-family: "Open Sans";
     padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
 }
-#allrankings a:hover {
+.buttonlink a:hover {
+    transition: background-color 0.3s ease-in-out;
     background-color: #391379;
 }
-.headlink {
+.titlelink {
 font-family: "Inter";
+font-size: x-large;
+font-weight: 600;
+
 }
 .headbar {
     display: grid;
@@ -62,6 +68,7 @@ font-family: "Inter";
 }
 
 .pageselector a {
+    transition: background-color 0.3s ease-in-out;
     font-weight: bolder;
     font-size: x-large;
     color: white;
@@ -73,6 +80,7 @@ font-family: "Inter";
 }
 
 .pageselector a:hover {
+    transition: background-color 0.3s ease-in-out;
     background-color: #391379;
     color: white;
 }
@@ -136,13 +144,34 @@ footer a {
 }
 
 footer a:hover{
-    background-color: #976d11;
-    color:#391379;
+    background-color: #391379;
+    color: white;
 }
 
 #footer {
 display: flex;
-flex-grow: 1;
-justify-content: space-evenly;
-align-items: center;
+}
+#footer a {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+#footer p {
+    margin: 30px;
+}
+
+#gallery {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template: auto auto / 1fr 1fr 1fr;
+    gap: 20px 20px;
+    margin: 0 20px;
+}
+#gallery img {
+    max-width: 100%;
+  }
+#iu4 {
+    grid-area: 2 / 1 / 2 / 4;
 }
