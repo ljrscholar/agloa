@@ -213,7 +213,7 @@ display: flex;
     background-color: #f4f4f4;
     border: solid black;
     padding: 20px;
-    margin: 3em 1.5em;
+    margin: 1.5em 0;
     border-radius: 8px;
 }
 
@@ -229,4 +229,8 @@ display: flex;
 
 .twocolumn {
     columns: 2;
+}
+
+table {
+    border: solid black;
 }
