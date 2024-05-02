@@ -11,6 +11,10 @@
     display: flex;
     justify-content: center;
 }
+.vertcenter {
+    display: flex;
+    align-items: center;
+}
 .left {
     display: flex;
     justify-content: left;
@@ -184,4 +188,21 @@ display: flex;
 }
 .gallery img {
     max-width: 100%;
+}
+
+.icon {
+    max-height: 3em;
+    max-width: 3em;
+    padding: 0.3em;
+}
+
+.doclist {
+    list-style-type: none;
+    font-size: 150%;
+    font-weight: 200;
+    padding: 0.2em;
+}
+
+.doclist li {
+    padding: 0.5em;
 }
