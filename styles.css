@@ -111,8 +111,8 @@ background-color: #391379;
 color: white;
 font-size: xx-large;
 border-radius: 10px;
-padding: 10px;
-margin: 1fr 1fr 200fr 2fr;
+padding: 10px 10px 10px 20px;
+margin-bottom: 10px;
 }
 
 #content {
@@ -175,7 +175,7 @@ display: flex;
 }
 #gallerypreview img {
     max-width: 100%;
-  }
+}
 #iu4 {
     grid-area: 2 / 1 / 2 / 4;
 }
@@ -198,11 +198,35 @@ display: flex;
 
 .doclist {
     list-style-type: none;
+    margin: 0;
     font-size: 150%;
     font-weight: 200;
     padding: 0.2em;
 }
 
 .doclist li {
-    padding: 0.5em;
+    padding: 0.2em;
+    margin: 0.2em;
+}
+
+.dropdownlist {
+    background-color: #f4f4f4;
+    border: solid black;
+    padding: 20px;
+    margin: 3em 1.5em;
+    border-radius: 8px;
+}
+
+.dropdownlist summary {
+    font-size: 150%;
+    font-weight: 700;
+}
+.dropdownlist li {
+    padding: 1em;
+    font-size: large;
+    font-weight: 600;
+}
+
+.twocolumn {
+    columns: 2;
 }
