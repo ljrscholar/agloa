@@ -162,16 +162,26 @@ display: flex;
     margin: 30px;
 }
 
-#gallery {
+#gallerypreview {
     display: grid;
     grid-auto-rows: auto;
     grid-template: auto auto / 1fr 1fr 1fr;
     gap: 20px 20px;
     margin: 0 20px;
 }
-#gallery img {
+#gallerypreview img {
     max-width: 100%;
   }
 #iu4 {
     grid-area: 2 / 1 / 2 / 4;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+    margin: 0 20px;
+}
+.gallery img {
+    max-width: 100%;
 }
