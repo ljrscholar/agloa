@@ -131,10 +131,15 @@ margin-bottom: 10px;
     flex-direction: column;
     align-items: center;
 }
+#nationals ul {
+    columns: 2;
+}
 
 .cancelled {
     font-weight: bold;
     color: red;
+    padding: 0;
+    margin: 0;
 }
 
 footer {
@@ -230,7 +235,31 @@ display: flex;
 .twocolumn {
     columns: 2;
 }
+.gridwocolumn {
+    margin: 0 1em;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+}
 
 table {
     border: solid black;
+}
+.infobox {
+    color: black;
+    margin: auto 1em;
+    font-size: large;
+    background-color: #f7e4ba;
+    border: solid black 3px;
+    border-radius: 12px;
+}
+.infobox h3 {
+    margin: 10px 30px;
+    padding: 1em 0 0 0;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+
+.infobox h4 {
+    font-weight: 700;
 }
