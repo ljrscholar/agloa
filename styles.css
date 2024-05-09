@@ -236,6 +236,10 @@ table {
     font-weight: 700;
 }
 
+.infoboxmargin {
+    margin: 0 1em;
+}
+
 footer {
     min-height: 20em;
     background-color: black;
