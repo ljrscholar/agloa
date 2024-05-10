@@ -240,6 +240,10 @@ table {
     margin: 0 1em;
 }
 
+#categories ul {
+    list-style-type: none;
+}
+
 footer {
     min-height: 20em;
     background-color: black;
@@ -311,4 +315,18 @@ footer {
     display: flex;
     align-items: end;
     padding-right: 3em;
+}
+
+.notice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+    border: solid black;
+    background-color: gray;
+    border-radius: 5px;
+    border-width: 10px;
+    font-size: 250%;
+    font-weight: 1200;
+    font-family: "Inter";
 }
